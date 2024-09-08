@@ -4,9 +4,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Carousel from './components/Carousel';
+import Overview from './components/Overview';
+import Gallery from './components/Gallery';
 import ProductDetails from './components/ProductDetails';
 import NewArrivals from './components/NewArrivals';
-import ReservationPage from './components/ReservationPage'; // Import ReservationPage
 
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/" element={<NewArrivals />} />
+        <Route path="/overview" element={<  Overview />} />
+        <Route path="/gallery" element={<  Gallery />} />
         <Route path="/product/:id" element={<ProductDetails />} />
-        <Route path="/reserve" element={<ReservationPage />} /> {/* Add route for reservation */}
+       
   
       </Routes>
       <Footer/>

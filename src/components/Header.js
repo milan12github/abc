@@ -16,20 +16,9 @@ const Header = () => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    // Fetch cart items and user details from backend or local storage
-    fetchCartItems();
-    fetchUserDetails();
+   
   }, []);
 
-  const fetchCartItems = () => {
-    // Fetch cart items logic here (replace with your API endpoint)
-    // For example: setCartItems([{product_name: 'Shirt', quantity: 1, size: 'M', product_price: 1500}]);
-  };
-
-  const fetchUserDetails = () => {
-    // Fetch user details (like gem count and session info)
-    // For example: setUser({ username: 'John Doe', gems: 20 });
-  };
 
   const toggleDropdown = () => {
     setIsDropdownVisible(!isDropdownVisible);
@@ -145,14 +134,11 @@ const Header = () => {
             </li>
             
             <li class="nav-item has-dropdown">
-            <Link to="/overview">Menu</Link>
+            <Link to="/gallery">Gallery</Link>
                 
             </li>
 
-            <li class="nav-item has-dropdown">
-            <Link to="/overview">Reservation</Link>
-                
-            </li>
+            
             </ul>
           </nav>
         </div>

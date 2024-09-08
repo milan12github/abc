@@ -36,7 +36,7 @@ function Home() {
       Over the years, ABC Restaurant has become a landmark for culinary excellence, receiving numerous accolades and awards.</p>
      <h3>Commitment</h3>
      <p>At ABC Restaurant, we're dedicated to sourcing the finest ingredients, crafting exquisite dishes, and delivering an unparalleled dining experience.</p>
-     <a href="overview.php" class="learn-more">Learn More</a>
+     <a href="/overview" class="learn-more">Learn More</a>
    </div>
 
  </div>
